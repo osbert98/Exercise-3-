@@ -46,7 +46,7 @@ public class mainProton {
 		
 		
 		p4.printProton();
-		p4.setRadio("Mohawk");
+		p4.setRadio("Edifier");
 		System.out.println("Type of key: " + p4.getKey());
 		System.out.println("Radio brand: " + p4.getRadio());
 		p4.displayX70();
