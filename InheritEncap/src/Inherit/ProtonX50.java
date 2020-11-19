@@ -49,7 +49,7 @@ public class ProtonX50 extends proton{
 	}
 
 	
-	public void displayX50() {
+	public void printX50() {
 		System.out.println("Model : " + model);
 		System.out.println("Auto parking assist : " + park);
 		x50speed s = new x50speed(); //superkeyword

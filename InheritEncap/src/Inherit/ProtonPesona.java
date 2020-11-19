@@ -49,7 +49,7 @@ public class ProtonPesona extends proton{
 	
 	
 	
-	public void detailsPesona() {
+	public void printPesona() {
 		
 		System.out.println("Big Space");
 		pesonaSpeed S = new pesonaSpeed(); //superkeyword

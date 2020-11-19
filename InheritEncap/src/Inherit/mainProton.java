@@ -18,7 +18,7 @@ public class mainProton {
 		p1.setRadio("Alpine");
 		System.out.println("Type of key: " + p1.getKey());
 		System.out.println("Radio brand: " + p1.getRadio());
-		p1.displayX50();
+		p1.printX50();
 		
 		
 		System.out.println("\nProtonPesona ");
@@ -27,7 +27,7 @@ public class mainProton {
 		p2.setRadio("Kenwood");
 		System.out.println("Radio brand: " + p2.getRadio());
 		System.out.println("Type of key: " + p2.getKey());
-		p2.detailsPesona();
+		p2.printPesona();
 		p2.run();
 		
 		
@@ -49,7 +49,7 @@ public class mainProton {
 		p4.setRadio("Edifier");
 		System.out.println("Type of key: " + p4.getKey());
 		System.out.println("Radio brand: " + p4.getRadio());
-		p4.displayX70();
+		p4.printX70();
 		
 		
 	}

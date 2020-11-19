@@ -51,7 +51,7 @@ public class ProtonX70 extends proton{
 	}
 
 	
-	public void displayX70() {
+	public void printX70() {
 		System.out.println("Model : " + model);
 		System.out.println("Automatic service : " +drive);
 		x70speed s = new x70speed(); //superkeyword
