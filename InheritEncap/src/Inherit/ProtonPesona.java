@@ -1,5 +1,5 @@
 package Inherit;
-
+import java.util.Scanner;
 
 public class ProtonPesona extends proton{
 	
@@ -8,6 +8,15 @@ public class ProtonPesona extends proton{
 	private String key="Standard Key";
 	
 	
+	Scanner scan = new Scanner(System.in);
+	
+	public void model() {
+		
+		System.out.println("Enter your car model? ");
+		String model1 = scan.nextLine();
+		System.out.println("Your car model is: "+model1);
+		
+	}
 	
 	
 	public void setRadio(String newRadio) {
@@ -35,7 +44,7 @@ public class ProtonPesona extends proton{
 			System.out.println("Max speed : " + super.maxSpeed + "km/h");
 		}
 		
-		public void  sing(String sing) {  //polymorphism
+		public void  sound() {  //polymorphism
 			System.out.println("vrooooooom");
 		}
 	}
@@ -54,8 +63,10 @@ public class ProtonPesona extends proton{
 		System.out.println("Big Space");
 		pesonaSpeed S = new pesonaSpeed(); //superkeyword
 		pesonaVariant V = new pesonaVariant(); 
+		
 		S.display();
 		V.display();
+		S.sound();
 		
 	}
 	}

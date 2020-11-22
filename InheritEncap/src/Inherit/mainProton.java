@@ -29,6 +29,7 @@ public class mainProton {
 		System.out.println("Type of key: " + p2.getKey());
 		p2.printPesona();
 		p2.run();
+		p2.model();
 		
 		
 		
@@ -50,6 +51,7 @@ public class mainProton {
 		System.out.println("Type of key: " + p4.getKey());
 		System.out.println("Radio brand: " + p4.getRadio());
 		p4.printX70();
+		p4.price(100, 200);
 		
 		
 	}

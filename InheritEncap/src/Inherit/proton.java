@@ -1,5 +1,8 @@
 package Inherit;
 
+import java.util.Scanner;
+
+
 class vehicle{
 	int maxSpeed=220;
 	int minSpeed=0;
@@ -33,6 +36,20 @@ public class proton  {
 	proton(String h){
 		
 		this.headlight=h;
+	}
+	
+	void price(int price1, int price2) {
+		System.out.println("Price:"+(price1+price2));
+		
+	}
+	
+	void price(double price1, int price2, int price3) {
+		System.out.println("Price:"+(price1+price2+price3));
+		
+	}
+	void price(int price1, double price2, double price3) { // this one is for overriding
+		System.out.println("Price:"+(price1+price2+price3));
+		
 	}
 	
 	public void printProton() {

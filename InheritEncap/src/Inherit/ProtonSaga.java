@@ -35,7 +35,7 @@ public class ProtonSaga extends proton{
 			System.out.println("Max speed : " + super.maxSpeed + "km/h");
 		}
 		
-		public void  sing(String sing) {  //polymorphism
+		public void  sound() {  //polymorphism
 			System.out.println("Sound fast vrooooooooooooooooooooooooooooooooooooooom shiuuuuu!");
 		}
 	}
@@ -55,7 +55,7 @@ public class ProtonSaga extends proton{
 		sagaSpeed S = new sagaSpeed(); //superkeyword
 		sagaVariant V = new sagaVariant(); 
 		S.display();
-		S.sing("sing");
+		S.sound();
 		V.display();
 		
 	}

@@ -38,8 +38,8 @@ public class ProtonX70 extends proton{
 			System.out.println("Max speed : " + maxSpeed + "km/h");
 		}
 		
-		public void  sing(String sing) {  //polymorphism
-			System.out.println("Broom Brooom");
+		public void  sound() {  //polymorphism
+			System.out.println("Sound goes Broom Brooom laju skit");
 		}
 	}
 	
@@ -48,6 +48,8 @@ public class ProtonX70 extends proton{
 		public void display() {
 			System.out.println("Colour choosen is : " +matte1);
 		}
+		
+		
 	}
 
 	
@@ -59,6 +61,7 @@ public class ProtonX70 extends proton{
 		s.display();
 		s.sound();
 		v.display();
+		
 	}
 	
 }

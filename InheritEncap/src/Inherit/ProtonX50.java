@@ -36,8 +36,8 @@ public class ProtonX50 extends proton{
 			System.out.println("Max speed : " + maxSpeed + "km/h");
 		}
 		
-		public void  sing(String sing) {  //polymorphism
-			System.out.println("Vrooooooooooom");
+		public void  sound() {  //polymorphism
+			System.out.println("Vrooooooooooom booost");
 		}
 	}
 	
@@ -55,7 +55,7 @@ public class ProtonX50 extends proton{
 		x50speed s = new x50speed(); //superkeyword
 		x50Variant v = new x50Variant(); 
 		s.display();
-		s.sing("sing");
+		s.sound();
 		
 		v.display();
 	}
